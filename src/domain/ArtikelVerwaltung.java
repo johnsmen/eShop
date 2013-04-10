@@ -28,5 +28,4 @@ public class ArtikelVerwaltung {
 	
 	public void artikelEinfuegen(){}
 	
-	//FUCK YOU ALL!
 }
