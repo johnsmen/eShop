@@ -5,8 +5,8 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.Vector;
 
-import kern.Artikel;
-import kern.Mitarbeiter;
+import valueobjekt.Artikel;
+import valueobjekt.Mitarbeiter;
 import persistence.ArtikelManager;
 import persistence.MitarbeiterManager;
 

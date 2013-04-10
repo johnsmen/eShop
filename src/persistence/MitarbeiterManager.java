@@ -22,7 +22,7 @@ public class MitarbeiterManager implements DatenManager{
 		reader = new BufferedReader(new FileReader(file));
 	}
 	@Override
-	public void openWritting(String file) throws IOException {
+	public void openWriting(String file) throws IOException {
 		// TODO Auto-generated method stub
 		writter = new PrintWriter(new BufferedWriter(new FileWriter(file)));
 	}
@@ -42,9 +42,9 @@ public class MitarbeiterManager implements DatenManager{
 	}
 
 	@Override
-	public void saveData(Vector obj) throws IOException {
+	public boolean saveData(Artikel art) throws IOException {
 		// TODO Auto-generated method stub
-		
+		return false;
 	}
 
 	@Override
@@ -53,7 +53,4 @@ public class MitarbeiterManager implements DatenManager{
 		return false;
 	}
 	
-	
-	
-
 }
