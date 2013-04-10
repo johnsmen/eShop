@@ -26,6 +26,9 @@ public class ArtikelVerwaltung {
 	
 	public void sortiereArtikel(){}
 	
-	public void artikelEinfuegen(){}
+	public void artikelEinfuegen(){
+		//gitskey
+		
+	}
 	
 }
