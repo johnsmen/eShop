@@ -10,10 +10,6 @@ import valueobjekt.Artikel;
 
 public class CmiRun {
 
-	
-//	hhh
-	//johann ist der babo
-	//testest
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String artName, artPreis, artNummer;
